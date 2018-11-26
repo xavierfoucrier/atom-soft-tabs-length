@@ -1,14 +1,14 @@
 {
-  "name": "atom-soft-tabs-width",
-  "main": "./lib/atom-soft-tabs-width",
+  "name": "atom-soft-tabs-length",
+  "main": "./lib/atom-soft-tabs-length",
   "version": "0.0.0",
-  "description": "Atom package to support soft tabs width",
+  "description": "Atom package to support soft tabs length",
   "keywords": [
     "soft",
     "tabs",
     "width"
   ],
-  "repository": "https://github.com/xavierfoucrier/atom-soft-tabs-width",
+  "repository": "https://github.com/xavierfoucrier/atom-soft-tabs-length",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
