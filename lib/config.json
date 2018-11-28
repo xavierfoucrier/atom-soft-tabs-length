@@ -7,8 +7,12 @@
   "softTabsLength": {
     "description": "Number of **virtual spaces** used to display your soft tabs. This package simulates the presence of invisible spaces to represent your soft tabs and will automatically adapt the editor sof tabs length to your needs. By default, the editor `Tab length` value is used.",
     "type": "string",
-    "enum": ["Auto detect", "2 spaces", "4 spaces"],
-    "default": "Auto detect"
+    "enum": [
+      {"value": "auto", "description": "Auto detect"},
+      {"value": "2", "description": "2 spaces"},
+      {"value": "4", "description": "4 spaces"}
+    ],
+    "default": "auto"
   },
   "useEditorConfigFile": {
     "description": "Always use the `.editorconfig` file whether to apply soft tabs length. When enabled, the package will **look to an editor config file** in the root directory to detect indentation style, and apply the specified soft tabs length. If no configuration file is found, any soft tabs length will be applied to the editor. When disabled, the package will always apply the specified soft tabs length, even if no editor config file is detected.",
