@@ -6,12 +6,18 @@
   }
 }
 
+[data-soft-tabs-length='2'] {
+  atom-text-editor .indent-guide {
+    overflow: hidden;
+    float: left;
+    width: 1.1em;
+  }
+}
+
 [data-soft-tabs-length='4'] {
   atom-text-editor .indent-guide {
-    letter-spacing: 0.6em;
-
-    &.eol {
-      letter-spacing: 1.2em;
-    }
+    overflow: hidden;
+    float: left;
+    width: 2.2em;
   }
 }
