@@ -1,6 +1,13 @@
 # atom-soft-tabs-length
 Atom package to support soft tabs length.
 
+## Install
+The package is published on the **APM** *(Atom Package Manager)* registry, so you can install it through the command line interpreter using:
+
+```console
+apm install atom-soft-tabs-length
+```
+
 ## License
 The project is developed under the **MIT** license:
 
