@@ -15,11 +15,5 @@
       {"value": "4", "description": "4 spaces"}
     ],
     "default": "auto"
-  },
-  "useEditorConfigFile": {
-    "title": "Use the editor config file",
-    "description": "Always use the `.editorconfig` file whether to apply soft tabs length. When enabled, the package will **look to an editor config file** in the root directory to detect indentation style, and apply the specified soft tabs length. If no configuration file is found, any soft tabs length will be applied to the editor. When disabled, the package will always apply the specified soft tabs length, even if no editor config file is detected.",
-    "type": "boolean",
-    "default": true
   }
 }
