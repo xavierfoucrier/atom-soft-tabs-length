@@ -18,6 +18,14 @@ Atom **soft tabs aren't configurable** the way hard tabs are, that's why this pa
 Pretend that your are working on a project with `soft tabs` of `2 spaces`. A new developer join your team, but he usually works with `soft tabs` of `4 spaces`... that's a problem, because you don't want **your source code to contain both** 2 spaces and 4 spaces.
 
 
+## How it works
+The package is built upon the great **EditorConfig** mechanism: it look for an `.editorconfig` file **in the project's root directory** to detect indentation style, based on the `indent_style` and `indent_size` properties, whether to apply soft tabs length. If no configuration file is found, no soft tabs length will be applied, and the editor will display the soft tabs normally.
+
+To properly display the soft tabs based on your coding styles, the package simulates the presence of invisible spaces, or **virtual spaces**, to represent your soft tabs. To make it work, it requires the **indent guide** to be enabled in order to tweak the indentation width/size on the Atom interface. By default the Atom styles are override and the indent guide is hide, but you can easily choose whether to display or not the indent guide in the package settings.
+
+For now, the package officially only support `2 spaces` and `4 spaces` soft tabs length.
+
+
 ## Contribute
 If you want to report a bug or if you just want to request for a new feature/improvement, please feel free to **fill an issue**. Thanks for taking time to contribute to this package.
 
