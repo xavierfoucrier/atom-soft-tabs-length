@@ -6,7 +6,9 @@
   "keywords": [
     "soft",
     "tabs",
-    "length"
+    "length",
+    "indent",
+    "editorconfig"
   ],
   "repository": "https://github.com/xavierfoucrier/atom-soft-tabs-length",
   "license": "MIT",
