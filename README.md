@@ -4,10 +4,6 @@ Atom package to support soft tabs length.
 ![Atom soft tabs length](logo.png "Atom soft tabs length")
 
 
-## Compatibility
-This package is built for **Atom**, a hackable text editor for the 21st Century.
-
-
 ## Install
 The package is published on the **APM** *(Atom Package Manager)* registry, so you can install it through the command line interpreter using:
 
