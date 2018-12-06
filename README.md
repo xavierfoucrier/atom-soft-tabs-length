@@ -1,4 +1,4 @@
-# atom-soft-tabs-length
+# Atom soft tabs length
 Atom package to support soft tabs length.
 
 ![Atom soft tabs length](logo.png "Atom soft tabs length")
