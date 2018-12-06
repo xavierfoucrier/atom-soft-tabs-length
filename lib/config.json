@@ -7,7 +7,7 @@
   },
   "softTabsLength": {
     "title": "Soft tabs length",
-    "description": "Number of **virtual spaces** used to display your soft tabs. This package simulates the presence of invisible spaces to represent your soft tabs and will automatically adapt the editor sof tabs length to your needs. By default, the editor `Tab length` value is used.",
+    "description": "Number of **virtual spaces** used to display your soft tabs. This package simulates the presence of invisible spaces to represent your soft tabs and will automatically adapt the editor soft tabs length to your needs. By default, the editor `Tab length` value is used.",
     "type": "string",
     "enum": [
       {"value": "auto", "description": "Auto detect"},
