@@ -12,6 +12,12 @@ apm install atom-soft-tabs-length
 ```
 
 
+## Usage
+Atom **soft tabs aren't configurable** the way hard tabs are, that's why this package comes to the rescue: it provide an easy way to display consistent soft tabs length between different editors configurations.
+
+Pretend that your are working on a project with `soft tabs` of `2 spaces`. A new developer join your team, but he usually works with `soft tabs` of `4 spaces`... that's a problem, because you don't want **your source code to contain both** 2 spaces and 4 spaces.
+
+
 ## Contribute
 If you want to report a bug or if you just want to request for a new feature/improvement, please feel free to **fill an issue**. Thanks for taking time to contribute to this package.
 
