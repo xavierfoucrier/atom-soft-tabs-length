@@ -1,4 +1,10 @@
 {
+  "notification": {
+    "title": "Notification",
+    "description": "Displays a **notification** when the soft tabs length setting is applied to one of your files. Note that this notification will be displayed once, when opening the file.",
+    "type": "boolean",
+    "default": true
+  },
   "hideIndentGuide": {
     "title": "Hide the indent guide",
     "description": "Indicates if the package **override the editor indentation guide styles** to hide the indentation bar. As the package is using the indentation guide to inject specific styles into the editor, you won't be able to see it until you turn off this setting.",
