@@ -1,7 +1,7 @@
 {
   "notification": {
     "title": "Notification",
-    "description": "Displays a **notification** when the soft tabs length setting is applied to one of your files. Note that this notification will be displayed once, when opening the file.",
+    "description": "Displays a notification **when the soft tabs length setting is applied** to one of your files. Note that this notification will be displayed once, when opening the file.",
     "type": "boolean",
     "default": true
   },
