@@ -1,7 +1,7 @@
 {
   "name": "atom-soft-tabs-length",
   "main": "./lib/atom-soft-tabs-length",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Atom package to support soft tabs length",
   "keywords": [
     "soft",
@@ -19,5 +19,7 @@
     "atom-package-deps": "^5.0.0",
     "editorconfig": "^0.15.2"
   },
-  "package-deps": ["editorconfig"]
+  "package-deps": [
+    "editorconfig"
+  ]
 }
