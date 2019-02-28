@@ -1,9 +1,14 @@
 {
-  "notification": {
-    "title": "Notification",
-    "description": "Displays a notification **when the soft tabs length setting is applied** to one of your files. Note that this notification will be displayed once, when opening the file.",
-    "type": "boolean",
-    "default": true
+  "notificationScope": {
+    "title": "Notification scope",
+    "description": "Indicates whether a notification should be display **when the soft tabs length setting is applied** to the editor. Note that using the `Project` scope will display a single notification as soon as you open any project file, while using the `File` scope will display a single notification for each project file. You can disable all notifications using `None` setting.",
+    "type": "string",
+    "enum": [
+      {"value": "project", "description": "Project"},
+      {"value": "file", "description": "File"},
+      {"value": "none", "description": "None"}
+    ],
+    "default": "project"
   },
   "hideIndentGuide": {
     "title": "Hide the indent guide",
