@@ -1,4 +1,15 @@
 {
+  "notificationScope": {
+    "title": "Notification scope",
+    "description": "Indicates whether a notification should be display **when the soft tabs length setting is applied** to the editor. Note that using the `Project` scope will display a single notification as soon as you open any project file, while using the `File` scope will display a single notification for each project file. You can disable all notifications using `None` setting.",
+    "type": "string",
+    "enum": [
+      {"value": "project", "description": "Project"},
+      {"value": "file", "description": "File"},
+      {"value": "none", "description": "None"}
+    ],
+    "default": "project"
+  },
   "hideIndentGuide": {
     "title": "Hide the indent guide",
     "description": "Indicates if the package **override the editor indentation guide styles** to hide the indentation bar. As the package is using the indentation guide to inject specific styles into the editor, you won't be able to see it until you turn off this setting.",
