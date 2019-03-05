@@ -26,5 +26,11 @@
       {"value": "4", "description": "4 spaces"}
     ],
     "default": "auto"
+  },
+  "ignorePattern": {
+    "title": "Ignore pattern",
+    "description": "Pattern used to **exclude some path** when applying the soft tabs length setting. You can use `Regex` pattern here to ignore files, folders, extensions, etc.",
+    "type": "string",
+    "default": ""
   }
 }
