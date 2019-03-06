@@ -7,7 +7,7 @@
   },
   "ignorePattern": {
     "title": "Ignore pattern",
-    "description": "Pattern used to **exclude some path** when applying the soft tabs length setting. You can use `Regex` patterns here to ignore files, folders, extensions: `(app)|(index).js$` will ignore path that end with 'app.js' or 'index.js'.",
+    "description": "Pattern used to **exclude some paths** when applying the soft tabs length setting. You can use `Regex` patterns here to ignore files, folders, extensions: `(app)|(index).js$` will ignore paths that end with 'app.js' or 'index.js'.",
     "type": "string",
     "default": ""
   },
