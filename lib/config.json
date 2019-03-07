@@ -1,4 +1,16 @@
 {
+  "hideIndentGuide": {
+    "title": "Hide the indent guide",
+    "description": "Indicates if the package **override the editor indentation guide styles** to hide the indentation bar. As the package is using the indentation guide to inject specific styles into the editor, you won't be able to see it until you turn off this setting.",
+    "type": "boolean",
+    "default": true
+  },
+  "ignorePattern": {
+    "title": "Ignore pattern",
+    "description": "Pattern used to **exclude some paths** when applying the soft tabs length setting. You can use `Regex` patterns here to ignore files, folders, extensions: `(app)|(index).js$` will ignore paths that end with 'app.js' or 'index.js'.",
+    "type": "string",
+    "default": ""
+  },
   "notificationScope": {
     "title": "Notification scope",
     "description": "Indicates whether a notification should be display **when the soft tabs length setting is applied** to the editor. Note that using the `Project` scope will display a single notification as soon as you open any project file, while using the `File` scope will display a single notification for each project file. You can disable all notifications using `None` setting.",
@@ -9,12 +21,6 @@
       {"value": "none", "description": "None"}
     ],
     "default": "project"
-  },
-  "hideIndentGuide": {
-    "title": "Hide the indent guide",
-    "description": "Indicates if the package **override the editor indentation guide styles** to hide the indentation bar. As the package is using the indentation guide to inject specific styles into the editor, you won't be able to see it until you turn off this setting.",
-    "type": "boolean",
-    "default": true
   },
   "softTabsLength": {
     "title": "Soft tabs length",
