@@ -28,9 +28,17 @@ For now, the package officially only support `2 spaces` and `4 spaces` soft tabs
 
 ### Notification
 When applying soft tabs length to the current editor, the package displays **scoped notifications** depending on the user setting:
-- `Project` display a single notification as soon as you open **any files** in the current project
-- `File` display a single notification **for each files** in the current project
-- `None` disable scoped notifications
+- `Project` displays a single notification as soon as you open **any files** in the current project
+- `File` displays a single notification **for each files** in the current project
+- `None` disables scoped notifications
+
+### Ignore pattern
+You can **exclude some paths** with a `Regex` pattern to tell the package to not apply the soft tabs length setting on specific files, folders, extensions, etc.
+- `(app)|(index).js$` ignores `app.js` and `index.js` files
+- `\\git-repo\\` ignores `git-repo` folder
+- `.css$` ignores everything that ends with `.css` extensions
+
+> Remember that the regular expression is applied to the **full path** of the file
 
 
 ## Contribute
