@@ -20,6 +20,13 @@ atom-text-editor {
       overflow: hidden;
       float: left;
       width: 2.2em;
+
+      &.leading-whitespace {
+        &::before,
+        &::after {
+          content: var(--soft-tabs-invisible-space);
+        }
+      }
     }
   }
 }
