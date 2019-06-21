@@ -13,7 +13,7 @@
   "repository": "https://github.com/xavierfoucrier/atom-soft-tabs-length",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.34.0 <2.0.0"
   },
   "dependencies": {
     "atom-package-deps": "^5.0.0",
