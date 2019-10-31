@@ -1,10 +1,4 @@
 {
-  "globalEditorConfigFile": {
-    "title": "Global .editorconfig file",
-    "description": "Define a global `.editorconfig` file that will be used as your **default configuration** by the editor. You can override this setting by adding an editor configuration file at the root of your project folder.",
-    "type": "string",
-    "default": ""
-  },
   "hideIndentGuide": {
     "title": "Hide the indent guide",
     "description": "Indicate if the package **override the editor indentation guide styles** to hide the indentation bar. As the package is using the indentation guide to inject specific styles into the editor, you won't be able to see it until you turn off this setting.",
