@@ -1,4 +1,4 @@
-# Atom soft tabs length – [![apm](https://img.shields.io/apm/v/atom-soft-tabs-length)](https://atom.io/packages/atom-soft-tabs-length)
+# Atom soft tabs length – [![apm](https://img.shields.io/apm/v/atom-soft-tabs-length)](https://atom.io/packages/atom-soft-tabs-length) [![dependencies](https://img.shields.io/david/xavierfoucrier/atom-soft-tabs-length)](https://github.com/xavierfoucrier/atom-soft-tabs-length/network/dependencies)
 Atom package to support soft tabs length.
 
 ![Atom soft tabs length](logo.gif "Atom soft tabs length")
