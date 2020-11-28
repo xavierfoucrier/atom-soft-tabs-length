@@ -16,7 +16,7 @@
     "atom": ">=1.34.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^6.0.0",
+    "atom-package-deps": "^7.0.2",
     "editorconfig": "^0.15.3"
   },
   "package-deps": [
