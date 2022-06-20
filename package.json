@@ -8,6 +8,7 @@
     "tabs",
     "length",
     "indent",
+    "spaces",
     "editorconfig"
   ],
   "repository": "https://github.com/xavierfoucrier/atom-soft-tabs-length",
