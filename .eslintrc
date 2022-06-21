@@ -2,14 +2,13 @@
   "env": {
     "node": true,
     "browser": true,
-    "es6": true
+    "es2022": true
   },
   "extends": "eslint:recommended",
   "globals": {
     "atom": true
   },
   "parserOptions": {
-    "ecmaVersion": 9,
     "sourceType": "module"
   },
   "rules": {
