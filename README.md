@@ -1,3 +1,5 @@
+> :atom: Atom editor has sunsetted on Dec 15, 2022, so it's no more possible to publish packages using Atom Package Manager CLI. You can still download the source here and manually install it.
+
 # Atom soft tabs length – [![apm](https://img.shields.io/badge/apm-v1.0.0-brightgreen)](https://atom.io/packages/atom-soft-tabs-length)
 Atom package to support soft tabs length.
 
